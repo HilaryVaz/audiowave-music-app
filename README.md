@@ -24,7 +24,7 @@ AudioWave is a music streaming web application built using:
 3. Start Apache and MySQL.
 4. Open:
 
-http://localhost/audiowave
+http://localhost/MusicStreaming/music.php
 
 ## Author
 Hilary Vaz
