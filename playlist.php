@@ -92,7 +92,16 @@ Create Playlist
 </div>
 
 </a>
+<form method="POST" action="delete-playlist.php" 
+onsubmit="return confirm('Are you sure you want to delete this playlist?');">
 
+<input type="hidden" name="playlist_id" value="<?php echo $row['id']; ?>">
+
+<button class="btn btn-danger btn-sm">
+<i class="bi bi-trash"></i> Delete
+</button>
+
+</form>
 <?php } ?>
 
 </div>
